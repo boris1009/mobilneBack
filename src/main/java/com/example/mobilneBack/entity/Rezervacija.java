@@ -14,7 +14,7 @@ import javax.persistence.*;
 public class Rezervacija {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
     private String datum;
     private String vrijeme;

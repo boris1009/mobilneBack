@@ -4,10 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Data
 @AllArgsConstructor
@@ -16,10 +13,10 @@ import javax.persistence.Table;
 @Table(name = "film")
 public class Film {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
-    private String naziv;
-    private String zanr;
-    private double trajanje;
+    private String name;
+    private String genre;
+    private double duration;
 
 }

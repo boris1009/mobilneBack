@@ -14,7 +14,7 @@ import javax.persistence.*;
 public class Karta {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
 
     @ManyToOne(targetEntity = Rezervacija.class,cascade = CascadeType.ALL)
