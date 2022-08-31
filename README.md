@@ -4,8 +4,8 @@ Svaka od navedenih (projektom tazenih) funkcionalnosti mora biti posebno Git pus
 
 - [x] Unos bioskopskih sala (broja mjesta u sali)
 - [x] Unos aktuelnih filmova
-- [ ] Rezervisanje sale za odredjeni film
+- [x] Rezervisanje sale za odredjeni film
 - [x] Osnovne informacije o gledaocu
-- [ ] Kupovina karata za termine
+- [x] Kupovina karata za termine
 - [ ] Lista popunjenosti
 - [ ] Najcesce gledani film po danu
