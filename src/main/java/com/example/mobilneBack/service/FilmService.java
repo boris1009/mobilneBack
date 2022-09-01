@@ -1,6 +1,7 @@
 package com.example.mobilneBack.service;
 
 import com.example.mobilneBack.entity.Film;
+import com.example.mobilneBack.entity.Karta;
 import com.example.mobilneBack.repository.FilmRepository;
 import com.example.mobilneBack.repository.SalaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -40,5 +41,9 @@ public class FilmService {
         existingFilm.setGenre(film.getGenre());
         existingFilm.setDuration(film.getDuration());
         return filmRepository.save(existingFilm);
+    }
+
+    public String getNajcesci(){
+        return filmRepository.getNajcesci();
     }
 }

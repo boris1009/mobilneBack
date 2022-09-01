@@ -1,8 +1,11 @@
 package com.example.mobilneBack.controller;
 
 import com.example.mobilneBack.entity.Film;
+import com.example.mobilneBack.entity.Karta;
 import com.example.mobilneBack.service.FilmService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -42,4 +45,9 @@ public class FilmController {
         return filmService.deleteFilm(id);
     }
 
+    @GetMapping("/getNajcesci")
+    public String getNajcesci(){
+
+        return filmService.getNajcesci();
+    }
 }
