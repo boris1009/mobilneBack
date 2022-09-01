@@ -8,4 +8,4 @@ Svaka od navedenih (projektom tazenih) funkcionalnosti mora biti posebno Git pus
 - [x] Osnovne informacije o gledaocu
 - [x] Kupovina karata za termine
 - [x] Lista popunjenosti
-- [x] Najcesce gledani film po danu
+- [ ] Najcesce gledani film po danu
