@@ -7,5 +7,5 @@ Svaka od navedenih (projektom tazenih) funkcionalnosti mora biti posebno Git pus
 - [x] Rezervisanje sale za odredjeni film
 - [x] Osnovne informacije o gledaocu
 - [x] Kupovina karata za termine
-- [ ] Lista popunjenosti
-- [ ] Najcesce gledani film po danu
+- [x] Lista popunjenosti
+- [x] Najcesce gledani film po danu
